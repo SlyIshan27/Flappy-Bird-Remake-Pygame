@@ -13,6 +13,35 @@ This is a recreation of the classic Flappy Bird game where the player controls a
 The goal is to survive as long as possible and achieve the highest score.
 
 ---
+
+# Cloning Repo/Setup/Running Game
+
+## Requirements
+
+- Must have a Python 3.x version
+
+- Must have Pygame
+
+## Cloning Repo:
+```bash
+git clone https://github.com/SlyIshan27/Flappy-Bird-Remake-Pygame.git
+cd Flappy-Bird-Remake-Pygame
+```
+## Setup:
+```bash
+pip install pygame
+```
+## Running the Game
+```bash
+python3 main.py
+```
+- A UI of the game will then pop-up
+
+# Demo
+![Demo](src/FlappyBirdDemo.gif)
+
+---
+
 ## Features
 
 ### Three Difficulty Modes:
@@ -62,31 +91,7 @@ The goal is to survive as long as possible and achieve the highest score.
 | `src/`      | Folder for images, audio files, and fonts         |
 
 ---
-# Cloning Repo/Setup/Running Game
 
-## Requirements
-
-- Must have a Python 3.x version
-
-- Must have Pygame
-
-## Cloning Repo:
-```bash
-git clone https://github.com/SlyIshan27/Flappy-Bird-Remake-Pygame.git
-cd Flappy-Bird-Remake-Pygame
-```
-## Setup:
-```bash
-pip install pygame
-```
-## Running the Game
-```bash
-python3 main.py
-```
-- A UI of the game will then pop-up
-
-# Demo
-![Demo](src/FlappyBirdDemo.gif)
 # Code Explanation
 
 This project is structured around functions, game states, and event-driven loops using Pygame.
